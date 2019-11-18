@@ -1,0 +1,18 @@
+server:
+  port: 8769
+spring:
+  application:
+    name: admin-server
+  security:
+    user:
+      name: admin
+      password: Pa$$w0rd
+  mail:
+    host: smtp3.hp.com
+    port:
+  boot:
+    admin:
+      notify:
+        mail:
+          from: xiaodong.liu@hp.com
+          to: xiaodong.liu@hp.com
