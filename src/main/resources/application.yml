@@ -12,6 +12,10 @@ spring:
     port:
   boot:
     admin:
+      ui:
+        title: Service Monitoring
+        favicon: img/favicon.ico
+        brand: <img src='img/favicon.ico'><span>Service Monitoring</span>
       notify:
         mail:
           from: xiaodong.liu@hp.com
